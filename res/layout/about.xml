@@ -1,0 +1,31 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n             Sawatari™签名开发日志"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:scrollbarStyle="outsideOverlay" >
+
+        	<TextView
+        	    android:id="@+id/textView2"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="match_parent"
+        	    android:layout_weight="1.04"
+        	    android:text="\n2012年12月3日               V1.0 for Android\n具有拨打电话、发送短信、查看地图图片功能。\n2013年2月9日                V1.0 for Playbook OS\n具备查看地图图片功能。\n2013年5月19日               V2.0 for Android\n界面改变，加入“实用工具”模块，实现实时定位功能（基于百度地图Android定位SDK3.3）。\n2013年5月22日               V2.0.1 for Android\n加入查看手机信息、开启闪光灯照明功能。\n2013年5月25日               V2.0.2 for Android\n实现录音功能。\n2013年5月28日               V2.0.3 for Android\n添加秒表计时功能，实现开机自启动。\n2013年6月1日                V2.0.4 for Android\n添加罗盘指南程序。\n2013年6月4日                V3.0.1 for Android\n更改图标，加入屏幕检测程序。\n2013年6月5日                V3.0.2 for Android\n实现依系统时间更换主界面背景功能，加入开发日志阅读模块。\n2013年7月8日                V3.0.3 for Android\n加载Logo添加Hatsune Miku语音（基于VOCALOID2）。\n2013年7月24日               V3.1.0 for Android\n替换查看地图图片功能为显示矢量图层与栅格影像（基于UCMap for Android V4.5.3）。\n2013年7月25日               V3.1.1 for Android\n恢复查看地图图片功能，完善电子地图影像显示，添加要素查询功能。\n2013年8月14日               V3.1.2 for Android\n添加日期倒计时桌面插件，启动动画更改。\n2013年9月1日                V1.1 for Playbook OS\n更改应用图标。\n2013年10月17日              V3.2.0 for Android\n添加简易计算器程序。\n2013年10月24日              V3.2.1 for Android\n添加日语界面，增加界面语言切换功能。\n\n\n         此程序版本解释权归Sawatari Inc.所有。\n\n\n"
+        	    android:textAppearance="?android:attr/textAppearanceSmall" />
+        	
+		</ScrollView>	
+
+    </LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08"
+        android:text="\n   Sawatari™ 本机签名实用程序\n"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.66"
+        android:text="本机签名\n本索尼爱立信LT18i手机为何韬所有。任何人未经许可不得使用，不得篡改任何信息。违者必究！若发现此手机，请致电+865567173450。\n\nこの携帯の署名\nこの“ソニー·エリクソンLT18i”携帯電話は沢渡広治（さわたり　ひろじ）のです。いかなる人は未許可で使ってはなりません、情報を改正してはなりません。違反不可！もしこの携帯を見つけた、+865567173450をダイヤルしてください。\n\nThe signature of this cellphone\nThis Sony Ericsson LT18i cellphone is Sawatari Hiroji(He Tao)&apos;s.Anyone without permission can&apos;t use it,and can&apos;t alter the information.Rights reserved!If you find this cellphone,please call +865567173450.\n\n泽渡软件\n沢渡ソフトウェア\nSawatari Software Corporation\nCopyright © 2012 Sawatari(C.R.X) Corp. All rights reserved" />
+
+    <RelativeLayout
+        android:id="@+id/l2"
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="实用工具" />
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentRight="true"
+            android:text="联系本人" />
+
+    </RelativeLayout>
+
+</LinearLayout>

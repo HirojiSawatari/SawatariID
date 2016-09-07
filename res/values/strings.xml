@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SawatariIDActivity!</string>
+    <string name="app_name">Sawatari™ ID</string>
+    <string name="widget_name">Sawatari™ 倒计时组件</string>
+    <string name="ch_zn"></string>
+
+</resources>

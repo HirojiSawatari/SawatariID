@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n            Sawatari™定位程序\n"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RelativeLayout
+        android:id="@+id/l2"
+        style="@android:style/ButtonBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/btn_start"
+            android:text="返回主界面" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="38dp"
+            android:text="开始定位" />
+    </RelativeLayout>
+
+    <hg.crx.sawaid.BorderTextView
+        android:id="@+id/tv_loc_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="0.75"
+        android:padding="30dp"
+        android:textColor="#cccccc"
+        android:textSize="18sp" >
+    </hg.crx.sawaid.BorderTextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本程序基于百度地图Android定位SDK3.3开发\n定位仅适用于亚欧大陆等东北半球地区\n©2012 Baidu / Google / Sawatari" />
+
+</LinearLayout>
