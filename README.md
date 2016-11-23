@@ -1,7 +1,7 @@
 SawatariID
 ==========
 
-This is my first Android Application when I decided to learn Java in 2012. 
+This is my first Android application when I decided to learn Java in 2012. 
 
 <img src='mdimage/image01.png' height='300px'/>
 
